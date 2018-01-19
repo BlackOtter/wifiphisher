@@ -1,0 +1,272 @@
+/*******************************************************************
+
+					STYLE BLEU
+
+	bleu grisÃƒÂ© trÃƒÂ¨s clair : #bcd4df
+	bleu clair : #25407e
+	bleu foncÃƒÂ© : #ec6730
+	bleu trÃƒÂ¨s foncÃƒÂ© : #0294d4
+
+*******************************************************************/
+
+body.triangles {
+	background: url('../img/bleu/triangles.png') no-repeat center top;
+}
+a {
+	color: #ec6730;
+	font-weight:bold;
+}
+a:hover {
+	color: #ec6730;
+}
+/* Header */
+
+#main_logo #accroche h2 {
+	color: #25407e;
+}
+.navbar .dropdown > li.home .icon {
+	background: url('../images/home.png') no-repeat center center;
+}
+.navbar .dropdown > li.sel.home .icon {
+}
+.navbar .dropdown > li.sel.home, .navbar .dropdown > li.sel {
+	background: #ec6730;
+}
+.navbar .dropdown > li.dir-sel {
+	background: #ec6730;
+}
+.navbar .dropdown > li.sel > a, .navbar .dropdown > li.dir-sel > a {
+	color: #FFFFFF;
+}
+.navbar .dropdown > li:hover {
+	transition: all ease-in 0s;
+	background: #ec6730;
+}
+.navbar .dropdown > li:hover > a {
+	transition: all ease-in 0s;
+	color: #FFFFFF;
+}
+.navbar .dropdown > li > a {
+	color: #FFFFFF;
+}
+.navbar .dropdown .lvl1 .subNav > ul a {
+	color: #FFFFFF;
+}
+.navbar .dropdown .subNav > ul > li.withSub:hover > a {
+	background-color: #ec6730;
+}
+.navbar .navbarContent_top .tabs li a {
+	color: #ec6730;
+}
+.navbar .navbarContent_top .tabs li a:hover, .navbar .navbarContent_top .tabs li.active a {
+	background-color:#ec6730;
+	border-color: #ec6730;
+}
+.navbar .navbarContent_bottom .panels .panel .col ul li a {
+	color: #ec6730;
+}
+.navbar .navbarContent_bottom .panels .panel .col ul li a:hover {
+	color: #ec6730;
+}
+.navbar .navbarContent_bottom .panels .panel .col ul li.style1 a {
+	color: #ec6730;
+}
+.navbar .navbarContent_bottom .panels .panel .col ul li.style2 a {
+	color: #47b6ff;
+}
+.navbar .dropdown .lvl1 .subNav > ul a:hover, .navbar .dropdown .lvl1 .subNav > ul .odd a:hover, .navbar .dropdown .subNav > ul > li.withSub:hover > a {
+	background-color: #ec6730;
+}
+.menuV #main_logo .inner_wrapp {
+	border-right: solid 5px #ec6730;
+}
+.menuV #nav {
+	background: url('../img/bleu/bg_menuV.jpg') repeat-y left top;
+}
+.menuV #nav .navbar > ul > li > a.sel, .menuV #nav .navbar > ul > li > a.dir-sel {
+	color: #25407e;
+}
+.menuV #nav .navbar > ul > li:hover > a.sel, .menuV #nav .navbar > ul > li:hover > a.dir-sel {
+	background-color: #25407e;
+}
+.menuV #nav .navbar li a {
+	color: #ec6730;
+}
+.menuV #nav .navbar li a:hover, .menuV #nav .navbar li:hover > a {
+	background-color: #25407e;
+}
+.menuV #nav .navbar > ul > li {
+	border-right: solid 5px #ec6730;
+}
+/* Slider */
+#sliderHome .rslides_tabs li.rslides_here a {
+	opacity : 1;
+	-moz-opacity : 1;
+	-ms-filter: "alpha(opacity=100)"; /* IE 8 */
+	filter : alpha(opacity=100); /* IE < 8 */
+}
+/* rÃƒÂ©seaux sociaux */
+#socialNetwork li a {
+	background-color: #25407e;
+}
+#socialNetwork li a:hover {
+	background-color: #25407e;
+}
+/* Boutons colonne */
+#sideBtn li.style2 a {
+	background-color: #25407e;
+}
+#sideBtn li.style3 a {
+	background-color: #ec6730;
+}
+/* Contenu page */
+.blocContenu .contenu .text .link a.btn {
+	background: url('../images/bulletpoint.png') no-repeat right center;
+	color: #25407e;
+	display: inline-block;
+	padding-right:13px;
+	text-decoration: underline;
+}
+.blocContenu.style3 .contenu .text .link a.btn, .blocContenu.style4 .contenu .text .link a.btn, .blocContenu.style5 .contenu .text .link a.btn {
+	background: url('../images/bulletpoint_white.png') no-repeat right center;
+	color: #FFFFFF;
+}
+/* Accordeon */
+.accordeon h2 {
+	color: #ec6730;
+}
+.accordeon .teteAccordeon {
+	border-left: solid 3px #ec6730;
+}
+.accordeon .teteAccordeon:hover {
+	border-left-color: #25407e;
+}
+.accordeon .open .teteAccordeon {
+	color: #ec6730;
+	border-left-color: #25407e;
+}
+
+/* Bloc onglets */
+#partners ul.tabs li a, .onglets li a, #partners div.tabs a, {
+ color: #ec6730;
+}
+#partners ul.tabs li a:hover, .onglets li a:hover, #partners ul.tabs a:hover {
+	color: #25407e;
+}
+#partners ul.tabs li.tabSel a, .onglets li.ongleton a {
+	border-left-color: #ec6730;
+}
+#partners ul.tabs li#ong1.tabSel a, .onglets li#onglet_1.ongleton a {
+	border-left: solid 3px #ec6730;
+}
+.magicOnglet {
+	border-left: solid 3px #ec6730;
+}
+/* Formulaire prereg */
+#preregCDF div.step.steprunning .stepNumber span {
+	border-color: #25407e;
+}
+#preregCDF div.step.steprunning {
+	color: #ec6730;
+}
+#marketingCodes a:hover {
+	border-color: #25407e;
+	color: #25407e;
+}
+.AffichagePrix .Montant {
+	color: #25407e;
+}
+#marketingCodes a {
+	border: solid 2px #ec6730;
+}
+/* Formulaires */
+input.form-submit {
+	background: #25407e;
+}
+input.form-submit:hover, input.form-submit:focus, input.form-submit:active {
+	background-color: #ec6730;
+}
+legend {
+	color: #ec6730;
+	border-bottom: solid 1px #bcd4df;
+}
+legend.recap {
+	background-color: #ec6730;
+}
+/* Recherche exposant */
+a.form-submit {
+	background: #25407e;
+}
+a.form-submit:hover {
+	background-color: #ec6730;
+	color: #FFF;
+}
+.oneResult h4 a {
+	color: #25407e;
+}
+.oneResult h4 a:hover {
+	color: #ec6730;
+}
+/* Espace exposant */
+.containerListe .tableActions img.on {
+	background-color: #ec6730;
+}
+.containerListe .tableActions a:hover img.on {
+	background-color: #25407e;
+}
+#accesformlink .listeCollegue .action a:hover {
+	background: #25407e;
+}
+#accesformlink .listeCollegue .action a {
+	background: #ec6730;
+}
+.blocContenu .text .dinamycsumproducts.row1 h3 {
+	color: #ec6730;
+}
+.blocContenu .text .dinamycsumproducts.row0 h3 {
+	color: #25407e;
+}
+/* Class gÃƒÂ©nÃƒÂ©riques */
+.color {
+	color: #25407e;
+}
+ul.couleur {
+	list-style-image: url('../img/style/bullet_blue.png');
+}
+ @media only screen and (max-height: 780px) {
+body.menuV {
+	background: url('../img/bleu/bg_menuV_small.jpg) repeat-y left top;'
+}
+}
+@media only screen and (max-width: 800px) {
+.menuMega #nav .navbar {
+	border-right: solid 5px #ec6730;
+}
+}
+/* Espace Visiteur */
+
+#deconnect {
+	background-color: #ec6730;
+}
+#deconnect:hover {
+	background-color: #25407e;
+}
+#deconnect span {
+	background-color: #25407e;
+}
+#intro h2 {
+	color: #ec6730;
+}
+#intro h2 span {
+	background-image: url('../img/bleu/ev_picto-bienvenue.png');
+}
+#sidebar #sommaire li a {
+	color: #25407e;
+}
+#sidebar #sommaire li a:hover {
+	color: #FFF;
+	background-color: #25407e;
+}
+#sidebar #sommaire li a span {
+	background-color: #25407e;
+}
